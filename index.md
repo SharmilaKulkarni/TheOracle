@@ -1,12 +1,24 @@
-## Welcome to GitHub Pages
+# The Oracle
+### Team members: Sharmila Kulkarni and Nikitha M
 
-You can use the [editor on GitHub](https://github.com/SharmilaKulkarni/TheOracle.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Objective
+Our aim is to compare two models of Machine learning based on their performance on a Kaggle project. The project in question is the [Spooky Author Identification Project](https://www.kaggle.com/c/spooky-author-identification). 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Data Format
+The training and test datasets are in the form of sentences. The training set is 19580 sentences long. Each object in the training set consists of three parts:
+- A sentence ID
+- The sentence
+- The class to which the sentence belongs to
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### The three classes
+1. Edgar Allan Poe abbreviated as **EAP**
+2. Mary Shelley abbreviated as **MWS**
+3. HP Lovecraft abbreviated as **HPL**
+
+## The procedure that we will be following
+We are using R programming to clean the data. 
+
 
 ```markdown
 Syntax highlighted code block
